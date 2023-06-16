@@ -1,0 +1,370 @@
+
+
+.top-content{
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+}
+
+/* MIDDLE-CONTENT-MAIN */
+
+.sort{
+    padding-top: 10px;
+}
+#sortby{
+    text-align: center;
+}
+/* .main{
+    padding-left: 0px !important; 
+    padding-right: 0px !important;
+} */
+.text-spmoi1{
+    line-height: 50px;
+    font-weight: bold;
+}
+
+#moi{
+    border-top: 2px solid red;
+    border-left: #ebebeb 1px solid;
+    /* border-right: #ebebeb 1px solid; */
+    border-bottom: #ebebeb 1px solid;
+}
+.all_product{
+    margin-top: 30px;
+    border-left: #ebebeb 1px solid;
+    border-top: 2px solid red;
+}
+.product_all_product{
+    border-right: #ebebeb 1px solid;
+    /* border-right: #ebebeb 1px solid; */
+    border-bottom: #ebebeb 1px solid;
+    position: relative;
+}
+.product_all_product:hover .tuychon{
+    visibility: visible;
+}
+.product_all_product:hover .xemnhanh{
+    visibility: visible;
+}
+.img-all_product{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.text-all_product{
+    margin-left: 15px;
+}
+.price-all_product{
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: red;
+    width: 50%;
+}
+.price-giamgia_all_product{
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    /* color: red; */
+    text-decoration: line-through;
+    width: 50%;
+}
+.giamgia_all_product{
+    text-align: center;
+    width: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+}
+.tuychon{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    line-height: 30px;
+    top: 50px;
+    left: 8%;
+    border: 1px solid #ea4242;
+    visibility: hidden;
+}
+.tuychon:hover{
+    background: #ea4242;
+    cursor: pointer;
+}
+.xemnhanh{
+    position: absolute;
+    top: 50px;
+    right: 8%;
+    text-align: center;
+    border: 1px solid #ea4242;
+    width: 40%;
+    line-height: 30px;
+    visibility: hidden;
+}
+.xemnhanh:hover{
+    background: #ea4242;
+    cursor: pointer;
+}
+.price-all_product:hover .tuychon{
+    visibility: visible;
+}
+.price-all_product:hover .xemnhanh{
+    visibility: visible;
+}
+
+.label1{
+    padding-top: 30px;
+}
+
+/* sản phẩm khuyến mãi */
+#khuyenmai{
+    border-top: 2px solid red;
+    border-left: #ebebeb 1px solid;
+    /* border-right: #ebebeb 1px solid; */
+    border-bottom: #ebebeb 1px solid;
+}
+
+.sanphamkhuyenmai{
+    /* background: #fff; */
+    margin-top: 30px;
+    border-right: #ebebeb 1px solid;
+}
+.product_spkhuyenmai{
+    border-left: #ebebeb 1px solid;
+    /* border-right: #ebebeb 1px solid; */
+    border-bottom: #ebebeb 1px solid;
+    position: relative;
+}
+/* .product_spkhuyenmai:last-child{
+    border-right: 0px;
+} */
+.product_spkhuyenmai:hover .tuychon{
+    visibility: visible;
+}
+.product_spkhuyenmai:hover .xemnhanh{
+    visibility: visible;
+}
+.img-spkhuyenmai{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.text-spkhuyenmai{
+    margin-left: 15px;
+}
+.price-spkhuyenmai{
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: red;
+    width: 50%;
+}
+.price-giamgia_khuyenmai{
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    /* color: red; */
+    text-decoration: line-through;
+    width: 50%;
+}
+.giamgia_khuyenmai{
+    text-align: center;
+    width: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+}
+.tuychon{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    line-height: 30px;
+    top: 50px;
+    left: 8%;
+    border: 1px solid #ea4242;
+    visibility: hidden;
+}
+.tuychon:hover{
+    background: #ea4242;
+    cursor: pointer;
+}
+.xemnhanh{
+    position: absolute;
+    top: 50px;
+    right: 8%;
+    text-align: center;
+    border: 1px solid #ea4242;
+    width: 40%;
+    line-height: 30px;
+    visibility: hidden;
+}
+.xemnhanh:hover{
+    background: #ea4242;
+    cursor: pointer;
+}
+.price-spkhuyenmai:hover .tuychon{
+    visibility: visible;
+}
+.price-spkhuyenmai:hover .xemnhanh{
+    visibility: visible;
+}
+
+.lable2{padding-top: 30px;}
+
+
+#noibat{
+    border-top: 2px solid red;
+    border-left: #ebebeb 1px solid;
+    /* border-right: #ebebeb 1px solid; */
+    border-bottom: #ebebeb 1px solid;
+}
+
+.sanphamnoibat2{
+    /* background: #fff; */
+    margin-top: 30px;
+    border-right: #ebebeb 1px solid;
+}
+.product_spnoibat{
+    border-left: #ebebeb 1px solid;
+    /* border-right: #ebebeb 1px solid; */
+    border-bottom: #ebebeb 1px solid;
+    position: relative;
+}
+/* .product_spkhuyenmai:last-child{
+    border-right: 0px;
+} */
+.product_spnoibat:hover .tuychon{
+    visibility: visible;
+}
+.product_spnoibat:hover .xemnhanh{
+    visibility: visible;
+}
+.img-spnoibat{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.text-spnoibat{
+    margin-left: 15px;
+}
+.price-spnoibat{
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: red;
+    width: 50%;
+}
+.price-giamgia_noibat{
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    /* color: red; */
+    text-decoration: line-through;
+    width: 50%;
+}
+.giamgia_noibat{
+    text-align: center;
+    width: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+}
+.tuychon{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    line-height: 30px;
+    top: 50px;
+    left: 8%;
+    border: 1px solid #ea4242;
+    visibility: hidden;
+}
+.tuychon:hover{
+    background: #ea4242;
+    cursor: pointer;
+}
+.xemnhanh{
+    position: absolute;
+    top: 50px;
+    right: 8%;
+    text-align: center;
+    border: 1px solid #ea4242;
+    width: 40%;
+    line-height: 30px;
+    visibility: hidden;
+}
+.xemnhanh:hover{
+    background: #ea4242;
+    cursor: pointer;
+}
+.price-spnoibat:hover .tuychon{
+    visibility: visible;
+}
+.price-spnoibat:hover .xemnhanh{
+    visibility: visible;
+}
+.btn.btn-light.col-xl-4 {
+    width: 40px;
+    margin: 20px 5px;
+    background: #ccc;
+    text-align: center;
+}
+.row.flex.justify-content-end{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.xemthem1{
+    display: none;
+}
+
+
+
+/* responsive */
+/* lg */
+@media all and (max-width:1200px){
+    /* .right{display: none;} */
+    .hotline{display: none;}
+    .login{display: none;}
+    .giohang, .sp-tructuyen
+    {display: none;}
+    .icon-spnoibat{
+        display: none !important;
+    }
+    .product_spmoi:last-child{
+        border-right: 1px solid #ebebeb;
+    }
+    .product_spkhuyenmai:last-child{
+        border-right: 1px solid #ebebeb;
+    }
+    .product_spnoibat:last-child{
+        border-right: 1px solid #ebebeb;
+    }
+}
+
+/* md */
+@media all and (max-width:992px){
+    /* .right{display: none;} */
+    /* .hotline{display: none;} */
+    .big-shoe , .login ,.giohang,.icon-danhmuc{
+        display: none;
+    }
+}
+@media all and (max-width:768px){
+    /* .right{display: none;} */
+    /* .hotline{display: none;} */
+    .search , .sub-list,.row.sort{
+        display: none;
+    }
+    .giaidap{border-right: 0px !important;}
+    .icon-left-right{
+        display: none !important;
+    }
+    .icon{display: none;}
+}
+@media all and (max-width:576px){
+}
+

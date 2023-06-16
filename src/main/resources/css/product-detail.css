@@ -1,0 +1,254 @@
+
+.top-content{
+    /* border-bottom: 1px solid #dee2e6; */
+    padding-bottom: 10px;
+}
+
+
+/* middle-content-main */
+.img-product-news{
+    padding: 0px 0px 12px 0px;
+}
+
+.text2-tintuc a{
+    text-decoration: none;
+    color: black;
+}
+.text2-tintuc{
+    padding-top: 1px;
+}
+.icon-fb-tw-gg{
+    display: block;
+    padding-right: 10px;
+}
+.comment{
+    margin-top: 30px;
+}
+.hoten-email{
+    display: flex;
+}
+
+
+
+
+.img{
+    width: 100%;
+    height: 200px !important;
+}
+#show-image{
+    width: 100%;
+    height: 200px;
+}
+
+.text-spmoi1{
+    line-height: 50px;
+    font-weight: bold;
+}
+
+#moi{
+    border-top: 2px solid red;
+    border-left: #ebebeb 1px solid;
+    /* border-right: #ebebeb 1px solid; */
+    border-bottom: #ebebeb 1px solid;
+}
+.sanphammoi{
+    border-right: #ebebeb 1px solid;
+}
+.product_spmoi{
+    border-left: #ebebeb 1px solid;
+    /* border-right: #ebebeb 1px solid; */
+    border-bottom: #ebebeb 1px solid;
+    position: relative;
+}
+.product_spmoi:hover .tuychon{
+    visibility: visible;
+}
+.product_spmoi:hover .xemnhanh{
+    visibility: visible;
+}
+.img-spmoi{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.text-spmoi{
+    margin-left: 15px;
+}
+.price-spmoi{
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: red;
+    width: 50%;
+}
+.price-giamgia_moi{
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    /* color: red; */
+    text-decoration: line-through;
+    width: 50%;
+}
+.giamgia_moi{
+    text-align: center;
+    width: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+}
+.tuychon{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    line-height: 30px;
+    top: 50px;
+    left: 8%;
+    border: 1px solid #ea4242;
+    visibility: hidden;
+}
+.tuychon:hover{
+    background: #ea4242;
+    cursor: pointer;
+}
+.xemnhanh{
+    position: absolute;
+    top: 50px;  
+    right: 8%;
+    text-align: center;
+    border: 1px solid #ea4242;
+    width: 40%;
+    line-height: 30px;
+    visibility: hidden;
+}
+.xemnhanh:hover{
+    background: #ea4242;
+    cursor: pointer;
+}
+.price-spmoi:hover .tuychon{
+    visibility: visible;
+}
+.price-spmoi:hover .xemnhanh{
+    visibility: visible;
+}
+
+
+.iamge-nho{
+    width: 100%;
+    /* height: ; */
+}
+.chitietsanpham{
+    margin-top: 20px;
+}
+/* .chitiet{
+    border-top: 2px solid black;
+    border-right: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+} */
+/* .thetag{
+    border-top: 2px solid black;
+    border-right: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+} */
+.row_chitiet{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+/* .thetag{
+    border-bottom: 1px solid #ebebeb;
+} */
+/* .mota{
+    border: 1px solid #ebebeb;
+    padding-top: 10px;
+    border-top: 0px;
+} */
+.mota p{
+    margin-bottom: 2px !important;
+}
+.mota p:last-child{
+    margin-bottom: 50px !important;
+}
+.thetag:hover{
+    cursor: pointer;
+}
+.chitiet:hover{
+    cursor: pointer;
+}
+.sub1_tags:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.sub2_tags:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+/* responsive */
+/* lg */
+@media all and (max-width:1200px){
+    /* .right{display: none;} */
+    .hotline{display: none;}
+    .login{display: none;}
+    .giohang, .sp-tructuyen
+    {display: none;}
+    .icon-spnoibat{
+        display: none !important;
+    }
+    .product_spmoi:last-child{
+        border-right: 1px solid #ebebeb;
+    }
+    .product_spkhuyenmai:last-child{
+        border-right: 1px solid #ebebeb;
+    }
+    .product_spnoibat:last-child{
+        border-right: 1px solid #ebebeb;
+    }
+}
+
+/* md */
+@media all and (max-width:992px){
+    /* .right{display: none;} */
+    /* .hotline{display: none;} */
+    .big-shoe , .login ,.giohang,.thongtinvanchuyen{
+        display: none;
+    }
+
+}
+@media all and (max-width:768px){
+    /* .right{display: none;} */
+    /* .hotline{display: none;} */
+    .search , .sub-list{
+        display: none;
+    }
+    .giaidap{border-right: 0px !important;}
+    .icon-left-right{
+        display: none !important;
+    }
+    .icon{display: none;}
+    .thongtinvanchuyen{
+        display: block;
+        padding-top: 50px;
+    }
+    .thongtingiay{
+        padding-top: 50px;
+    }
+}
+@media all and  (max-width:576px){
+}
+
+
+/* #xemthem1, #xemthem2, #xemthem3, #xemthem4{
+    display: none;
+} */
+
+
+
+
+
+
+
+

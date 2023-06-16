@@ -1,0 +1,121 @@
+
+/* MIDDLE-CONTENT-MAIN */
+
+/* .main{
+    padding-left: 0px !important; 
+    padding-right: 0px !important;
+} */
+
+
+.top-content{
+    border-bottom: 1px solid #dee2e6;
+}
+
+
+tr{
+    height: 200px;
+    display: block;
+}
+.image{
+    text-align: center;
+    line-height: 200px;
+}
+.td {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price{
+    text-align: center;
+    color: red;
+}
+.amount{
+    display: flex;
+    margin: 0 auto;
+}
+.sum-price{
+    text-align: center;
+    color: red;
+}
+.icon1{
+    text-align: center;
+}
+p{
+    display: block;
+}
+.sum{
+    padding: 20px 0px;
+    display: flex;
+    border-bottom: 1px solid #dee2e6;
+}
+.tr{
+    margin: 0px !important;
+}
+    /* .tongtien{
+        margin-bottom: 0px !important;
+    } */
+.thanhtoan{
+    padding: 20px 0px;
+}
+
+
+
+
+
+/* responsive */
+@media all and (max-width:1400px){
+    /* .right{display: none;} */
+    /* .hotline{display: none;} */
+    /* .gia{
+        margin-left: 830px !important;
+    } */
+    /* .btn_thanhtoan{
+        margin-left: 730px !important;
+    } */
+}
+/* lg */
+@media all and (max-width:1200px){
+    /* .right{display: none;} */
+    .hotline{display: none;}
+    .login{display: none;}
+    .giohang, .sp-tructuyen
+    {display: none;}
+    .icon-spnoibat{
+        display: none !important;
+    }
+    .product_spmoi:last-child{
+        border-right: 1px solid #ebebeb;
+    }
+    .product_spkhuyenmai:last-child{
+        border-right: 1px solid #ebebeb;
+    }
+    .product_spnoibat:last-child{
+        border-right: 1px solid #ebebeb;
+    }
+}
+
+/* md */
+@media all and (max-width:992px){
+    /* .right{display: none;} */
+    /* .hotline{display: none;} */
+    .big-shoe , .login ,.giohang{
+        display: none;
+    }
+}
+@media all and (max-width:768px){
+    /* .right{display: none;} */
+    /* .hotline{display: none;} */
+    .search , .sub-list{
+        display: none;
+    }
+    .giaidap{border-right: 0px !important;}
+    .icon-left-right{
+        display: none !important;
+    }
+    .icon{display: none;}
+}
+@media all and  (max-width:576px){
+}
+
+

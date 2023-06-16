@@ -1,0 +1,85 @@
+/* middle-content-main */
+.img-product-news{
+    padding: 0px 0px 12px 0px;
+}
+
+.text2-tintuc a{
+    text-decoration: none;
+    color: black;
+}
+.text2-tintuc{
+    padding-top: 1px;
+}
+.icon-fb-tw-gg{
+    display: block;
+    padding-right: 10px;
+}
+.comment{
+    margin-top: 30px;
+}
+.hoten-email{
+    display: flex;
+}
+
+
+
+
+
+/* responsive */
+/* lg */
+@media all and (max-width:1200px){
+    /* .right{display: none;} */
+    .hotline{display: none;}
+    .login{display: none;}
+    .giohang, .sp-tructuyen , .img-tintuc
+    {display: none;}
+    .icon-spnoibat{
+        display: none !important;
+    }
+    .product_spmoi:last-child{
+        border-right: 1px solid #ebebeb;
+    }
+    .product_spkhuyenmai:last-child{
+        border-right: 1px solid #ebebeb;
+    }
+    .product_spnoibat:last-child{
+        border-right: 1px solid #ebebeb;
+    }
+}
+
+/* md */
+@media all and (max-width:992px){
+    /* .right{display: none;} */
+    /* .hotline{display: none;} */
+    .big-shoe , .login ,.giohang{
+        display: none;
+    }
+}
+@media all and (max-width:768px){
+    /* .right{display: none;} */
+    /* .hotline{display: none;} */
+    .search , .sub-list{
+        display: none;
+    }
+    .giaidap{border-right: 0px !important;}
+    .icon-left-right{
+        display: none !important;
+    }
+    .icon{display: none;}
+}
+@media all and  (max-width:576px){
+}
+
+
+/* #xemthem1, #xemthem2, #xemthem3, #xemthem4{
+    display: none;
+} */
+
+
+
+
+
+
+
+
+

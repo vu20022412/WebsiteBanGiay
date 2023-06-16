@@ -1,0 +1,87 @@
+/* content */
+.content{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* footer */
+.footer{
+    padding-top: 20px;
+}
+.list-menu a{
+    text-decoration: none;
+    color: black;
+}
+.list-menu{
+    padding-left: 0px;
+}
+
+/* middle-content */
+.middle-content{
+    padding-top: 50px;
+}
+/* danh mục sản phẩm */
+ul > li:hover .sub-ul-li{
+    visibility: visible;
+}
+.sub-ul-li{
+    position: absolute;
+    visibility: hidden;
+    top: 0px;
+    left: 100%;
+    /* right: -1px; */
+    width: 200px;
+    list-style:none;
+    background-color: white;
+    z-index: 1;
+    padding-left: 0px ;
+}
+.ul > li{
+    position: relative;
+}
+.hotrotructuyen{
+    padding-top: 20px;
+}
+
+.danhmuc{ text-align: center;}
+
+.sanphamnoibat{
+    padding-top: 20px;
+}
+
+.img_giamgia{
+    padding-top: 20px;
+}
+.anh:hover{
+    scale: 1.1; 
+}
+
+.tintuc2{
+    padding-top: 20px;
+    /* width: 100%; */
+}
+
+.overall_tintuc{
+    border: 1px solid #dee2e6;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+}
+
+.text1_tintuc span{
+    font-weight: bold;
+}
+
+.text2-tintuc a{
+    text-decoration: none;
+    color: black;
+}
+.text3-tintuc{
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+.doctiep{
+    color: red;
+    text-decoration: none;
+    font-style: italic;
+}
