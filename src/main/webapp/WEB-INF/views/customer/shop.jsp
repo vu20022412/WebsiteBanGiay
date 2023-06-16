@@ -382,7 +382,7 @@
         }
         
         
-        
+        //load mới
         
         function increaseOrDecreasePage(_baseUrl,_productSearchPage) {
         	
